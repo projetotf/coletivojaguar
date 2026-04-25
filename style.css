@@ -92,10 +92,10 @@ header{
 
       margin-bottom: 10em;
       margin-inline: auto;
-      background-color: black;
+      background-color: rgb(0, 0, 0);
        img{
   margin-inline: auto;
-  width: min(90%, 1500px);
+  width: min(95%, 1300px);
 
 }
  p{
@@ -129,6 +129,9 @@ header{
 
     
  }
+
+
+
 
 .site-wrapper{
 
@@ -208,49 +211,8 @@ text-align: center;
 
 
 
-.artes{
-    background-color: rgb(0, 0, 0);
-    margin-top: 10em;
-    margin-inline: auto;
-    padding: 1em;
-    display: grid;
-    gap: 3em;
-    border-radius: 3em;
-}
 
-.artes img{
-    width: min(100%, 800px);
-    margin: 0 auto;
-}
 
-.post{
-  background-color: rgb(255, 255, 255);
- 
-
-  width: min(90%, 800px);
-  margin-inline: auto;
-  height: 60vh;
-  padding:  2em 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
-.post h1{
-  text-align: start;
-  font-family: 'Anton';
-  font-size: clamp(3rem, 5vw, 4rem);
-  border-top: 6px solid rgb(13, 204, 247);
-
-}
-
-.post p{
-  text-align: start;
-  font-size: clamp(2rem, 3vw, 3rem);
-  line-height: 1;
-    border-bottom: 6px solid rgb(13, 204, 247);
-}
 
   h3{
     font-size: clamp(5rem, 10vw, 15rem);
@@ -258,6 +220,7 @@ text-align: center;
     border-bottom: 2px solid black;
     margin: 0;
     color: white;
+    width: 95svh;
   }
 
 
@@ -265,9 +228,11 @@ text-align: center;
 h4{
   margin-bottom: 2em;
   border-bottom: 2px solid black;
-  padding-left: 1em;
+ 
   font-size: clamp(3rem, 4vw, 4rem);
   margin-inline: auto;
+  width: 95svh;
+
 }
 
 footer{
@@ -287,22 +252,37 @@ footer{
  }
 
 .escritos-container{
-
+  display: grid;
+  gap: 2em;
   margin-bottom: 10em;
   h4{
     margin: 3em 0;
-    padding-left: 1em;
-    width: 100%;
+    padding-left: 1em;    margin-inline: auto;
   }
+ 
 }
+
+
 
 summary{
   border: 3px solid black;
   padding: 2em 1em;
   font-size: clamp( 2rem, 4vw, 3rem);
-  background-color: rgb(190, 21, 21);
   color: white;
-  margin-bottom: 4em
-;
+  background-color: black;
+
+  
 }
+
+details {
+  border: 2px solid black;
+  article{
+  width: min(90%, 1400px);
+  margin-inline: auto;
+  line-height: 1;
+  font-size: clamp(2rem, 4vw, 3rem);
+  padding: 1em 0;
+}
+ }
+
   
