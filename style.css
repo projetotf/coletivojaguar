@@ -89,48 +89,44 @@ p{
 header{
     
   
-    width: min(90%, 1500px);
+
       margin-bottom: 10em;
       margin-inline: auto;
-
-
-
-
-}
-
-header img{
-  object-fit: cover ;
-  width: 100%;
+      background-color: black;
+       img{
+  margin-inline: auto;
+  width: min(90%, 1500px);
 
 }
-
-header h1{
-    font-size: clamp(5rem, 5vw, 10rem);
-    color: rgb(0, 0, 0);
-    line-height: 1;
-    font-family: 'Krona One', sans-serif;
-    margin-inline: auto;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: yellow;
-    
-  padding: .8em;
-  margin: 0;
-  
-    
-
-
-}
-
-
-header p{
+ p{
     color: rgb(0, 0, 0);
     line-height: .8;
     font-size: clamp(.8rem, 3vw, 2rem);
 
-    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
     padding: .3em 1em;
   
     font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 1em ;
+    
+ }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
     
  }
 
@@ -269,7 +265,7 @@ text-align: center;
 h4{
   margin-bottom: 2em;
   border-bottom: 2px solid black;
-  width: min(90%, 1500px);;
+  padding-left: 1em;
   font-size: clamp(3rem, 4vw, 4rem);
   margin-inline: auto;
 }
@@ -291,7 +287,22 @@ footer{
  }
 
 .escritos-container{
-  padding:1em;
+
   margin-bottom: 10em;
+  h4{
+    margin: 3em 0;
+    padding-left: 1em;
+    width: 100%;
+  }
+}
+
+summary{
+  border: 3px solid black;
+  padding: 2em 1em;
+  font-size: clamp( 2rem, 4vw, 3rem);
+  background-color: rgb(190, 21, 21);
+  color: white;
+  margin-bottom: 4em
+;
 }
   
